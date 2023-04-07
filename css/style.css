@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.publicar {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    margin: 30px auto 0;
+}
+
+.publicar form {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.publicar form input, .publicar form textarea{
+    padding: 4px 0 4px 17px;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    margin: 10px;
+}
+
+.publicar form textarea{
+    padding: 4px 0 4px 17px;
+    font-size: 17px;
+    border-radius: 20px;
+    outline: none;
+    margin: 10px;
+}
+
+.publicar form textarea {
+    resize: none;
+}
+.publicar button {
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 1.3rem;
+}

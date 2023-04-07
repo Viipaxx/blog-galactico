@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/NewNews.js" defer></script>
+    <title>Portal de Noticia Galactica</title>
+</head>
+<body>
+    <div class="container">
+
+        <nova-noticia
+            autor="Star Pages"
+            title="AI mostra como Yoda era quando criança"
+            link-url="#"
+            photo="img/baby-yoda.jfif"
+            content="Engenheiros Rakata_Kafka criam Inteligência Artificial capaz de rejuvenecer qualquer foto pessoal."
+        ></nova-noticia>
+
+    </div>
+
+    <div class="publicar">
+        <h1>Publicar Notícia</h1>
+        <form action="#" id="formulario">
+            <input type="text" id="autor" placeholder="Autor" autocomplete="off">
+            <input type="text" id="titulo" placeholder="Titulo" autocomplete="off">
+            <input type="url" id="link" placeholder="Link" autocomplete="off">
+            <textarea id="descricao" cols="30" rows="4" placeholder="Descrição da noticia" autocomplete="off"></textarea>
+            <input type="text" id="img" placeholder="link img" autocomplete="off">
+
+        </form>
+        <button id="publicar" type="submit">publicar</button>
+
+    </div>
+    <script src="js/publicarNoticia.js"></script>
+</body>
+</html>
